@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #8b0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #ffcc00;
+}
+
+/* CONTACTO */
+.contact {
+  padding: 100px 20px 40px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact h1 {
+  color: #8b0000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #a52a2a;
+}
+
+/* INFO EXTRA */
+.info {
+  background: #fce4e4;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.info h2 {
+  color: #8b0000;
+}
+
+/* FOOTER */
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* Redes sociales en el footer */
+footer .social {
+  margin-top: 10px;
+}
+
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+footer .social a:hover {
+  color: #ffcc00;
+}

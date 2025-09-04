@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #8b0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffcc00;
+}
+
+/* HERO */
+.hero {
+  background: url("hero-anticuchos.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.hero-text p {
+  font-size: 1.2em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffd633;
+}
+
+/* DESTACADOS */
+.destacados {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.destacados h2 {
+  color: #8b0000;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #8b0000;
+}
+
+/* OPINIONES */
+.opiniones {
+  background-color: #fce4e4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.opiniones h2 {
+  margin-bottom: 25px;
+}
+
+.reviews blockquote {
+  margin: 15px auto;
+  max-width: 600px;
+  font-style: italic;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* UBICACIÓN */
+.ubicacion {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.ubicacion h2 {
+  margin-bottom: 10px;
+  color: #8b0000;
+}
+
+/* FOOTER */
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social a {
+  color: #ffcc00;
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer .social a:hover {
+  text-decoration: underline;
+}
+/* Redes sociales en el footer */
+footer .social {
+  margin-top: 10px;
+}
+
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+footer .social a:hover {
+  color: #ffcc00;
+}
